@@ -1,0 +1,11 @@
+table tr th{
+    color:green;
+    border: 1px solid black;
+    padding: 35px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  

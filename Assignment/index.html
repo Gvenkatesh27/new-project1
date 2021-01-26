@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <form class="myform" action="./server.php" method="POST">
+                    <h2><b>FORM</b></h2>
+                    <input type="text" name="id" class="id form-control" placeholder="id"><br>
+                    <input type="text" name="emailid" class="emailid form-control" placeholder="emailid"><br>
+                    <input type="text" name="first_name" class="first_name form-control" placeholder="first_name"><br>
+                    <input type="text" name="last_name" class="last_name form-control" placeholder="last_name"><br>
+                    <input type="text" name="avatar" class="avatar form-control" placeholder="avatar"><br>
+                    <input type="submit" value="submit" name="submit" class="btn btn-primary login_btn" id="myloginbtn">
+                     
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="container">
+      <div class="row">
+        <table class="center">
+          <thead>
+            <tr>
+              <th>id</th>
+              <th>emailid</th>
+              <th>first_name</th>
+              <th>last_name</th>
+              <th>avatar</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      
+    </div>
+</body>
+
+</html>
