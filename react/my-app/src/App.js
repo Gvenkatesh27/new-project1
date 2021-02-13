@@ -70,10 +70,21 @@ const buttonclick = () =>{
       {/* <Person name ={userstate.user_deatils[0].name} mobile={userstate.user_deatils[0].mobile} />
       <Person name ={userstate.user_deatils[1].name} mobile={userstate.user_deatils[1].mobile} />
       <Person name ={userstate.user_deatils[2].name} mobile={userstate.user_deatils[2].mobile} /> */}
-      <button className="btn">click this button</button>
+      <button className="btn">click this button</button><br/>
       <button  style ={style} onClick = {buttonclick}>showdata</button>
       <p className={button_classes.join(" ")}>No data found</p>
       {newperson}
+      <People/>
+      <div className="ui grid">
+  <div className="four wide column">pavan</div>
+  <div className="four wide column">ranjith</div>
+  <div className="four wide column">suresh</div>
+  <div className="four wide column">venky</div>
+  <div className="two wide column">moni</div>
+  <div className="eight wide column">priya</div>
+  <div className="six wide column">sam</div>
+</div>
+<Users/>
     </div>
     );
 }
