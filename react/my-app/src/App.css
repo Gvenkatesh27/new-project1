@@ -1,10 +1,7 @@
 .App {
   text-align: center;
-  /* border: 1px solid black; */
-  padding: 250px;
-  font-size:x-large;
-  font-style: italic;
-
+  /* padding: 150px; */
+color: red;
 }
 .btn{
   padding: 10px;
@@ -31,6 +28,7 @@ button{
   margin: 10px 0;
   box-sizing: border-box;
 }
+
 
 .show{
   display: block;
