@@ -2,6 +2,9 @@
   text-align: center;
   /* padding: 150px; */
 color: red;
+font-size: xx-large;
+font-style: italic;
+padding: 15px;
 }
 .btn{
   padding: 10px;

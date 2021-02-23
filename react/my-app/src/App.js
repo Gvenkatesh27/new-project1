@@ -2,26 +2,46 @@ import './App.css';
 import Comments from "./components/comments/Comments";
 import Approval from "./components/comments/approval/Approval";
 import faker from "faker";
+import  React,{ Component , useState} from 'react';
 
-const App = () =>{
-  return(
-    <div className="App">
-      <div className="ui comments">
-        <Approval>
-        <Comments name="MASTER" comment="FLOP" time="Today at 5:30pm" image={faker.image.image()}></Comments>
-        </Approval>
-        <Approval>
-        <Comments name="VALIMAI" comment="BLOCK BUSTER" time="Today at 7:30pm" image={faker.image.image()}></Comments>
-        </Approval>
-        <Approval>
-        <Comments name="COBRA" comment="AVERAGE" time="Today at 9:30pm" image={faker.image.image()}></Comments>
-        </Approval>
-        <Approval>
-        <Comments name="DON" comment="HIT" time="Today at 10:30pm" image={faker.image.image()}></Comments>
-        </Approval>
-      </div>
+class App extends Component{
+  constructor(props){
+    super(props)
+    this.state = {
+      pos : [
+        {
+          lat : null,
+          long : null
+        }
+      ],
+    }
+    
+    window.navigator.geolocation.getCurrentPosition(position => {
+      console.log(position)
+      this.setState({
+        pos : {
+          lat :position.coords.latitude,
+          long : position.coords.longitude
+        }
+      })
+    },
+      error => {
+        console.log(error)
+      }
+    )
+  }
+  
+  
 
-    </div>
-  );
+  render() {
+        return(
+          <div className="App">
+          hello your coords<br/><br/>
+          {console.log(this.state)}
+          latitude : {this.state.pos.lat},<br/><br/>
+          longitude : {this.state.pos.long},
+          </div>
+        );
+  }
 }
 export default App;
