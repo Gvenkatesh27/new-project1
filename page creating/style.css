@@ -1,0 +1,74 @@
+table, th, tr,td {
+    border: 1px solid rgb(245, 227, 227);
+    text-align: center;
+    padding: 10px;
+    color: whitesmoke;
+  }
+  .body_back{
+      background-image: url("https://media.istockphoto.com/photos/blue-abstract-background-or-texture-picture-id1138395421?k=6&m=1138395421&s=612x612&w=0&h=bJ1SRWujCgg3QWzkGPgaRiArNYohPl7-Wc4p_Fa_cyA=");
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  h1{
+      color: whitesmoke;
+  }
+  h3{
+      text-align: center;
+      color: cornsilk;
+  }
+
+  #content1{
+      width: 30%;
+      height: 270px;
+      background-color: springgreen;
+      float: left;
+      margin-top: 20px;
+      text-align: center;
+
+  }
+
+  #content2{
+    width: 35%;
+    height: 270px;
+    background-color:rosybrown;
+    float: left;
+    margin-left: 2%;
+    margin-top: 20px;
+    text-align: center;
+}
+ #content3{
+      width: 30%;
+      height: 270px;
+      background-color: rgb(124, 223, 166);
+      float: right;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+.btn{
+    background-color: teal;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.navbar{
+    float: right;
+    margin-bottom: 5px;
+    padding: 10px 0px;
+   
+}
+.vast{
+    background-color: slategrey;
+}
+.vasts{
+    background-color: yellowgreen;
+}
+.vaste{
+    background-color: blueviolet;
+}
+.vastes{
+    background-color: springgreen;
+}
