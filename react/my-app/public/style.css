@@ -1,0 +1,21 @@
+button{
+    color: black;
+    background-color: whitesmoke;
+    font-size: xx-large;
+}
+.container{
+    float: right;
+    font-size:xx-large;
+    color: black;
+    padding: 10%;
+}
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    background-color: black;
+    width: 24%;
+    font-size: xx-large;
+  }

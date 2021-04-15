@@ -51,6 +51,7 @@ table, th, tr,td {
 
 .navbar a{
     color: black;
+    background-color: violet;
     text-decoration: none;
     padding: 10px 20px;
 }
@@ -60,7 +61,7 @@ table, th, tr,td {
     padding: 10px 0px;
    
 }
-.vast{
+/* .vast{
     background-color: slategrey;
 }
 .vasts{
@@ -71,4 +72,4 @@ table, th, tr,td {
 }
 .vastes{
     background-color: springgreen;
-}
+} */
