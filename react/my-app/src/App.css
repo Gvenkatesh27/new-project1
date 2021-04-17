@@ -1,7 +1,9 @@
 .App{
-    color: blue;
+    color:red;
     /* width: 100%; */
     font-size: xx-large;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
+    word-spacing: 50%;
+    
 }

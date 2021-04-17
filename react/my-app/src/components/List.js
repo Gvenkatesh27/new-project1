@@ -13,12 +13,12 @@ const List = ({items}) =>{
         setButtonStatus(buttonStatus+1);
     }
 
-    // useEffect(()=>{
-    //     console.log("use Effect rendered " + activeIndex);
-    //     return ()=>{
-    //         console.log("CLEANUP" + activeIndex);
-    //     }
-    // },[activeIndex])
+    useEffect(()=>{
+        console.log("use Effect rendered " + activeIndex);
+        return ()=>{
+            console.log("CLEANUP" + activeIndex);
+        }
+    },[activeIndex])
 
     useEffect(() =>{
         (async () => {
