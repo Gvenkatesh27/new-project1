@@ -7,3 +7,9 @@
     word-spacing: 50%;
     
 }
+
+.input{
+    float: right;
+    color: blueviolet;
+    font-size: xx-larges;
+}
