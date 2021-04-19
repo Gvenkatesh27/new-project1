@@ -17,11 +17,11 @@ const StyledTableCell = withStyles((theme) => ({
   head: {
     backgroundColor: theme.palette.common.black,
     color: theme.palette.common.white,
-    fontSize : "x-large",
+    fontSize : "large",
     fontFamily : "italic"
   },
   body: {
-    fontSize: "x-large",
+    fontSize: "large",
     fontFamily : "italic"
   },
 }))(TableCell);
@@ -43,20 +43,16 @@ const useStyles = makeStyles({
 const mystyle = {
   color: "black",
   backgroundColor: "white",
-  padding: "10px",
-  fontFamily: "Arial",
+  // padding: "10px",
+  fontFamily: "italic",
   float : "right"
 
 };
 
 const mystyles = {
-  backgroundColor : "orange",
+  backgroundColor : "orangered",
   color : "white"
 }
-
-
-
-
 
 
 const App = () => {
@@ -111,8 +107,7 @@ const App = () => {
               if (search == "") {
                 return item;
               } else if (
-                // item.title.toLowerCase().includes(search.toLowerCase())
-                item.description.toLowerCase().includes(search.toLowerCase())
+                item.name.toLowerCase().includes(search.toLowerCase())
               ) {
                 return item;
               }
