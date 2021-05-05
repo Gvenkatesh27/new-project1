@@ -5,6 +5,8 @@
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     word-spacing: 50%;
+    /* background-color: rgb(201, 201, 221); */
+    text-align: center;
     
 }
 
@@ -13,3 +15,20 @@
     color: blueviolet;
     font-size: xx-larges;
 }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background: rgb(136, 141, 143);
+    color: white;
+  }
+  
+  .nav-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
